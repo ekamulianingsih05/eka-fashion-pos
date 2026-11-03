@@ -1,0 +1,1 @@
+<?php class PelangganController extends CrudController{function __construct(){$this->table='pelanggan';$this->title='Pelanggan';$this->fields=['nama'=>'Nama pelanggan','telepon'=>'Telepon','alamat'=>'Alamat'];$this->view='pelanggan';}}

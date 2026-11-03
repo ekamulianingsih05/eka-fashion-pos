@@ -1,0 +1,1 @@
+<?php class SupplierController extends CrudController{function __construct(){$this->table='supplier';$this->title='Supplier';$this->fields=['nama'=>'Nama supplier','telepon'=>'Telepon','alamat'=>'Alamat'];$this->view='supplier';}}

@@ -1,0 +1,1 @@
+<?php class Transaksi{public static function monthly(){return Database::connect()->query('SELECT DATE_FORMAT(tanggal,"%Y-%m") periode,COUNT(*) transaksi,SUM(total) total FROM transaksi GROUP BY periode')->fetchAll();}}

@@ -1,0 +1,1 @@
+<?php class KategoriController extends CrudController{function __construct(){$this->table='kategori';$this->title='Kategori';$this->fields=['nama'=>'Nama kategori','deskripsi'=>'Deskripsi'];$this->view='kategori';}}
